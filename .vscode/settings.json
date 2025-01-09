@@ -1,0 +1,21 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "nodejs-testing.include": [
+        "./test"
+    ],
+    "nodejs-testing.extensions": [
+        {
+            "extensions": [
+                "ts"
+            ],
+            "parameters": [
+                "--import",
+                "tsx"
+            ]
+        }
+    ]
+}
